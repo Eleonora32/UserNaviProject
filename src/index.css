@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+}
+.nav li {
+  margin-bottom: 10px;
+}
+.userButton {
+  margin: 10px;
+}
+.nav a {
+  color: green;
+  
+  text-decoration: none;
+}
+.nav a.active {
+  color: red;
+  font-weight: bold;
+}
+
+.img {
+  margin: 1rem;
+}
